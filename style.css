@@ -7,7 +7,6 @@ body, html {
     height: 100%;
     min-height: 0;
     font-family: 'Montserrat';
-    border: 1px solid blue;
 }
 
 #main-container {
