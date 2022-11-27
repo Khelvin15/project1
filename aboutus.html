@@ -1,0 +1,113 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <style>
+
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ 
+      }
+      .headers {
+        text-align: right;
+
+      }
+      .headers a {
+        display: inline-block;
+        padding: 20px 25px;
+        text-decoration: none;
+        color: #000;
+      }
+      .headers a.active {
+        color: blue;
+      }
+      .content {
+        flex-grow: 1;
+        flex-basis: 50%;
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+      }
+      .content p {
+        margin-top: 0;
+      }
+   
+      .content1 {
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        height: 100%;;
+      
+        
+      }
+      .boxcontainer {
+        border: 10px solid rgb(4, 94, 150);
+        margin: 20px;
+        height: calc(100% - 40px);
+      }
+      .container2 {
+        flex-grow: 1;
+        flex-basis: 50%;
+      }
+      .button a{
+        padding: 10px 10px;
+        margin: 0 20px;
+        border: 2px solid #000;
+        text-decoration: none;
+        display: inline-block;
+      }
+      .container-body{
+        display: flex;
+        width: 100%;
+        flex-grow: 1;
+      }
+      .container {
+        padding: 30px 30px 0px 30px;
+      }
+      .button{
+        margin-top: auto;
+        margin-bottom: 20px;
+        text-align: center;
+      }
+
+    </style>
+</head>
+<body>  
+  <div class="boxcontainer">
+    <div class="content1">
+      <div class="container">
+        <div class="logo">
+          <span>MR FLORES</span><br>
+          <span>HEALTH CENTER</span>
+        </div>
+        <div class="headers">
+          <a href="home.html">Home</a>
+          <a href="feedback.html">Feedback</a>
+          <a class="active" href="aboutus.html">About Us</a>
+          <a href="contactus.html">Contact Us</a> 
+          <a href="donor_registration.html">Donor Registration</a>
+          <a href="requestblood.html">Request Blood</a> 
+          <a href="index.html">Log Out</a> 
+        </div>
+      </div>
+      <div class="container-body">
+        <div class="content">
+          <h2>SAVE LIFE</h2><br>
+          <h2>DONATE BLOOD</h2>
+          <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit</span><br>
+          <span>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</span><br>
+          <span>Ut enim ad minim veniam, quis nostrud exercitation ullamco</span><br>
+          <span>nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in</span><br>  
+        </div>
+        <div class="container2">
+        </div>
+      </div>
+    </div>   
+</body>
+</html>
